@@ -2,7 +2,7 @@
 
 * A simple lightweight Javascript rich-text editor.
 * No dependencies, no plug-ins needed.
-* version : 0.9 beta
+* version : 0.9.1 beta
 
 
 
@@ -46,7 +46,7 @@ const editor = new gbcEditor.init({
 
 ## Resources
 
-* Release Notes - comming soon
+* [Release Notes 0.9.1](https://github.com/soulmotion21/editor/releases/tag/v0.9.1)
 
 
 
