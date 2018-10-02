@@ -7,7 +7,7 @@
 
 ## Installing
 
-##### Step 1 : Simply link required files.
+#### Step 1 : Simply link required files.
 
 ```html
 <link rel="stylesheet" href="gbcEditor.css">
@@ -19,7 +19,7 @@
 
 
 
-##### Step 2 : Create HTML markup
+#### Step 2 : Create HTML markup
 
 ```html
 <div id="editor"></div>
@@ -27,7 +27,7 @@
 
 
 
-##### Step 3 : Call the editor
+#### Step 3 : Call the editor
 
 ```javascript
 const editor = new gbcEditor.init({
@@ -51,7 +51,7 @@ const editor = new gbcEditor.init({
 
 ## Changelog
 
-#####Version 0.9 beta
+#### Version 0.9 beta
 
 
 
