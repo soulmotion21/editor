@@ -130,49 +130,49 @@
       }
     },
     justifyleft: {
-      icon: '<i class="fas fa-align-left"></i>',
+      icon: '<span>&laquo;</span>',
       title: 'Justify left',
       result: function result() {
         return exec('justifyleft');
       }
     },
     justifycenter: {
-      icon: '<i class="fas fa-align-center"></i>',
+      icon: '<span>=</span>',
       title: 'Justify center',
       result: function result() {
         return exec('justifycenter');
       }
     },
     justifyright: {
-      icon: '<i class="fas fa-align-right"></i>',
+      icon: '<span>&raquo;</span> ',
       title: 'Justify right',
       result: function result() {
         return exec('justifyright');
       }
     },
     olist: {
-      icon: '<i class="fas fa-list-ol"></i>',
+      icon: '<span>ol</span>',
       title: 'Ordered List',
       result: function result() {
         return exec('insertOrderedList');
       }
     },
     ulist: {
-      icon: '<i class="fas fa-list-ul"></i>',
+      icon: '<span>ul</span>',
       title: 'Unordered List',
       result: function result() {
         return exec('insertUnorderedList');
       }
     },
     code: {
-      icon: '<i class="fas fa-code"></i>',
+      icon: '<span>&lt;/&gt;</span>',
       title: 'Code',
       result: function result() {
         return false;
       }
     },
     link: {
-      icon: '<i class="fas fa-link"></i>',
+      icon: '<span>#</span>',
       title: 'Link',
       result: function result() {
         var url = window.prompt('Enter the link URL');
