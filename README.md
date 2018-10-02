@@ -45,7 +45,7 @@ const editor = new gbcEditor.init({
 
 ## Resources
 
-- [Release Notes]()
+- Release Notes - comming soon
 
 
 
