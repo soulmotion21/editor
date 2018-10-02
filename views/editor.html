@@ -1,0 +1,30 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Editor</title>
+  <link rel="stylesheet" href="../src/resources/css/style.css">
+</head>
+<body>
+
+<div class="gbc-editor-container">
+  <form>
+    <div>
+      <div id="editor"></div>
+    </div>
+
+  </form>
+</div>
+
+
+<script src="../src/js/gbcEditor.js"></script>
+<script>
+  const editor = new gbcEditor.init({
+    element: 'editor' // editor ID
+  });
+</script>
+
+</body>
+</html>

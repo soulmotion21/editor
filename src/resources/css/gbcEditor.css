@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+/**
+ * Editor css
+ * Author : David Kim
+ */
+
+/**
+ * Editor container
+ */
+.gbc-editor-container {
+  padding: 20px;
+  font-size: 14px;
+}
+
+/**
+ * Editor toolbar
+ */
+.gbc-editor-toolbar {
+  margin-bottom: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.gbc-editor-toolbar .gbc-editor-button {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  background: #eff1f9;
+  border: #b7c1d7 1px solid;
+  text-align: center;
+  padding: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin: 0 2px 2px 0;
+  vertical-align: top;
+}
+
+.gbc-editor-toolbar .gbc-editor-button:hover {
+  background: #e7e9f1;
+}
+
+.gbc-editor-toolbar .gbc-editor-button.gbc-editor-button-selected {
+  background: #c8cad2;
+}
+
+.gbc-editor-toolbar .gbc-editor-button i {
+  line-height: 28px;
+}
+
+.gbc-editor-toolbar b sub {
+  font-weight: normal;
+}
+
+/**
+ * Editor content
+ */
+.gbc-editor-content {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  line-height: 1.5;
+  background-clip: padding-box;
+  border-radius: 3px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-size: 13px;
+  background: #eff1f9;
+  min-height: 380px;
+  margin-bottom: 10px;
+}
+
+textarea.gbc-editor-content {
+  border: 0;
+}
+
+.gbc-editor-content:focus,
+textarea.gbc-editor-content:focus {
+  border-color: #80bdff;
+  background: #fff;
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.gbc-editor-content p,
+.gbc-editor-content div,
+textarea.gbc-editor-content {
+  color: #4e555b;
+}
+
+.gbc-editor-content h1,
+.gbc-editor-content h2 {
+  color: #4e555b;
+}
+
+.gbc-editor-content ol,
+.gbc-editor-content ul {
+  display: block;
+  list-style-type: decimal;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.gbc-editor-content ol li,
+.gbc-editor-content ul li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.gbc-editor-content ol li {
+  list-style-type: decimal;
+}
+
+.gbc-editor-content ul li {
+  list-style: disc;
+}
+
+.gbc-editor-select,
+.gbc-editor-color-select {
+  border-radius: 0;
+  min-width: 60px;
+  margin: 0 2px 2px 0;
+  height: 30px;
+  line-height: 30px;
+  background: #eff1f9;
+  border: #b7c1d7 1px solid;
+}
+
+.btnSelectColor {
+  display: inline-block;
+  position: relative;
+  margin: 0 2px 2px 0;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  background: #eff1f9;
+  border: #b7c1d7 1px solid;
+  text-align: center;
+  padding: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  vertical-align: top;
+}
+
+.btnSelectBackColor {
+  display: inline-block;
+  position: relative;
+  margin: 0 2px 2px 0;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  background: #eff1f9;
+  border: #b7c1d7 1px solid;
+  text-align: center;
+  padding: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  vertical-align: top;
+}
+
+/**
+ * Inner layer in toolbar
+ */
+.box-inner-layer {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: -1px;
+  width: 240px;
+  height: 40px;
+  padding: 10px;
+  background: #fff;
+  border: #ddd 1px solid;
+}
+
+.box-inner-layer.active {
+  display: block;
+}
+
+.box-inner-layer ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.box-inner-layer ul li {
+  width: 25px;
+  height: 20px;
+  list-style: none;
+}
+
+.box-inner-layer ul li button {
+  width: 20px;
+  height: 20px;
+  line-height: 18px;
+  border-radius: 2px;
+  padding: 0;
+  color: #ccc;
+  vertical-align: top;
+}
+
