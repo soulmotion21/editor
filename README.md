@@ -2,6 +2,7 @@
 
 * A simple lightweight Javascript rich-text editor.
 * No dependencies, no plug-ins needed.
+* version : 0.9 beta
 
 
 
@@ -39,19 +40,13 @@ const editor = new gbcEditor.init({
 
 ## Demo
 
-[View demo](http://sungkyu.me/editor/)
+* [View demo](http://sungkyu.me/editor/)
 
 
 
 ## Resources
 
-- Release Notes - comming soon
-
-
-
-## Changelog
-
-#### Version 0.9 beta
+* Release Notes - comming soon
 
 
 
